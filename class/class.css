@@ -1,0 +1,136 @@
+body {
+	background-color: #008080;
+	width: 1200px;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+
+
+
+}
+article {
+ 	width: 1200px;
+	height:780px;
+	display:flex;	
+	justify-content: center;
+
+
+	}
+
+
+nav  {
+	width: 1200px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+button {
+	width: 45%;
+	height: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 4px outset grey;
+    border-radius: 8px;
+    background: skyblue;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ac00f0), to(#cfc7cc));
+    background: -moz-linear-gradient(top, darkgrey, grey);
+    background: linear-gradient(to bottom, darkgrey, blue);
+    text-shadow: black 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: skyblue;
+    text-decoration: none;
+}
+button:hover,
+button:focus {
+    border: 1px solid ##db2fa1;
+    background: #ce00ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ce00ff), to(#f8eff5));
+    background: -moz-linear-gradient(top, white, grey);
+    background: linear-gradient(to bottom, darkgrey, white);
+    color: grey;
+    text-decoration: none;
+}
+button:active {
+    background: #670090;
+    background: -webkit-gradient(linear, left top, left bottom, from(#670090), to(#cfc7cc));
+    background: -moz-linear-gradient(top, #670090, #cfc7cc);
+    background: linear-gradient(to bottom, #670090, #cfc7cc);
+}
+
+
+.cercle {
+	margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    border: 2px dashed navy;
+    border-radius: 50%;
+    cursor: pointer;
+  
+}
+
+.losange {
+	margin: 0 auto;
+	width: 110px;
+    height: 110px;
+    border: 2px dashed navy;
+
+    -ms-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    cursor: pointer;
+}
+
+.carre {
+	margin: 0 auto;
+	width: 110px;
+    height: 110px;
+    border: 2px dashed navy;
+    cursor: pointer;
+
+}
+#ligne1 {
+
+	width: 18%;
+	height: 18%;
+} 
+#ligne2 {
+
+	width: 18%;
+	height: 18%;
+}  
+#ligne3{
+
+	width: 18%;
+	height: 18%;
+} 
+#ligne4 {
+
+	width: 18%;
+	height: 18%;
+} 
+#ligne5 {
+
+	width: 18%;
+	height: 18%;
+} 
+.boite {
+	padding-top: 15px;
+	padding-left: 10px;
+	width: 95%;
+	height: 95%;
+	
+}
+.active{
+	background-color: blue;
+}
+
+footer{
+
+    color: white;
+    font-size: 50px;
+    margin-left: -10%;
+}
